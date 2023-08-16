@@ -3,7 +3,7 @@ public class Vehiculo {
     private String marca;
     private String modelo;
 
-    public Vehiculo() {
+    public Vehiculo(int ruedas, String marca, String modelo) {
         this.ruedas = ruedas;
         this.marca = marca;
         this.modelo = modelo;

@@ -1,9 +1,10 @@
-public class Automovil extends Vehiculo implements Interfazvehiculos{
+package src;
+public class Automovil extends Vehiculo implements Conducible{
     private int numeroPuertas;
     private String tipoDeCombustible;
 
-    public Automovil(){}
-    public Automovil(int numeroPuertas, String tipoDeCombustible) {
+    public Automovil(int ruedas, String marca, String modelo, int numeroPuertas, String tipoDeCombustible) {
+        super(ruedas, marca, modelo);
         this.numeroPuertas = numeroPuertas;
         this.tipoDeCombustible = tipoDeCombustible;
     }
