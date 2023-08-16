@@ -1,3 +1,5 @@
+package src;
+
 public class Motocicleta extends Vehiculo implements Conducible{
     private int cilindrada;
     private String tipoDeManejo;
@@ -15,22 +17,7 @@ public class Motocicleta extends Vehiculo implements Conducible{
     }
 
     public void conducir(){
-        System.out.println("La motocicleta tiene cilindadra de: " + cilindrada + " y un tipo de manejo: " + tipoDeManejo + "se encuentra en movimiento");
+        System.out.println("La motocicleta tiene cilindadra de: " + cilindrada + " con tipo de manejo: " + tipoDeManejo + ",se encuentra en movimiento");
    }
 
-    public int getCilindrada() {
-        return cilindrada;
-    }
-
-    public void setCilindrada(int cilindrada) {
-        this.cilindrada = cilindrada;
-    }
-
-    public String getTipoDeManejo() {
-        return tipoDeManejo;
-    }
-
-    public void setTipoDeManejo(String tipoDeManejo) {
-        this.tipoDeManejo = tipoDeManejo;
-    }
 }
