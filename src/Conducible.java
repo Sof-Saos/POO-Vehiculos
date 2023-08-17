@@ -1,7 +1,4 @@
-//Creacion de una interfaz #10
+package src;
 public interface Conducible {
-
-    //metodo conducir #10
     public void conducir();
-
 }
